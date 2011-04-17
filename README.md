@@ -64,6 +64,11 @@ yourself warned and put the following in your .vimrc
 
 	let g:espresso_remove_raw_js = 1
 
+If the extra little echo statements at the bottom get annoying (i.e. the minified file.min.js and (removed file.js)) then you can add the following parameter
+to your .vimrc
+
+	let g:espresso_noisy = 0
+
 Contact
 -------
 I seriously, SERIOUSLY invite all comments, issues, etc. If you see something
